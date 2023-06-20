@@ -29,8 +29,18 @@ p{
     font-size: 16px; 
     line-height: 30px;
 }
+.logo {
+    max-width: 30px;
+}
+.nav-item{
+  padding: 0 10px;
+  line-height: 14px;
+}
+.active{
+  color: var(--branding-color) !important;
+}
 .hero{
-    /* background: var(--secondary-color); */
+    background: var(--secondary-color);
     text-align: center;
     padding: 160px 20px;
 }
@@ -46,29 +56,6 @@ p{
     line-height: 1.5;
     font-size: 24px;
 }
-.navigation-links {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-.contact-link {
-  background: var(--branding-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-}
 .btn-branding {
     background: var(--branding-color);
     border-radius: 4px;
@@ -76,6 +63,7 @@ p{
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+    box-shadow: var(--box-shadow);
 }
 .btn-branding-outline{
     border-radius: 4px;
@@ -149,3 +137,13 @@ p{
         text-align: center;
     }
 }
+/* @media(min-width: 992px){
+  .navbar-expand-lg{
+    display: flex;
+    
+  }
+  .navbar-expand-lg .navbar-nav{
+    flex-direction: row;
+    justify-content: flex-end !important;
+  }
+} */
