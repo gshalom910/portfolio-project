@@ -85,6 +85,25 @@ p{
     line-height: 27px;
     padding: 15px 30px;
 }
+.about-sec{
+  padding: 160px 20px;
+}
+.about-sec h1{
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-sec h2{
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-sec img{
+  width: 416px;
+  height: 516px;
+  border-radius: 4%;
+}
+.about-sec-content{
+  margin: 30px;
+}
 .project-desc{
     padding: 100px 60px;
 }
@@ -99,6 +118,14 @@ p{
     }
     .hero{
         padding: 80px 20px;
+    }
+    .about-sec{
+      text-align: center;
+      padding: 60px 10px;
+    }
+    .about-sec h1{
+      font-size: 50px;
+      line-height: 1.1;
     }
 }
 @media(max-width: 1200px){
