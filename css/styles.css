@@ -85,27 +85,40 @@ p{
     line-height: 27px;
     padding: 15px 30px;
 }
-.about-sec{
+.content-container{
   padding: 160px 20px;
 }
-.about-sec h1{
+.content-container h1{
   font-size: 64px;
   line-height: 80px;
 }
-.about-sec h2{
+.content-container h2{
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-sec img{
+.abt-img{
   width: 416px;
   height: 516px;
   border-radius: 4%;
 }
-.about-sec-content{
+.content{
   margin: 30px;
+  text-align: center;
+  padding: 0;
+}
+.content h3{
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+.content p{
+  font-size: 14px;
 }
 .project-desc{
     padding: 100px 60px;
+}
+.work img{
+  border-radius: 3%;
 }
 
 @media(max-width:900px){
@@ -119,11 +132,11 @@ p{
     .hero{
         padding: 80px 20px;
     }
-    .about-sec{
+    .content-container{
       text-align: center;
       padding: 60px 10px;
     }
-    .about-sec h1{
+    .content-container h1{
       font-size: 50px;
       line-height: 1.1;
     }
